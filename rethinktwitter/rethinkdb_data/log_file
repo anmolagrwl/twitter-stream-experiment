@@ -1,0 +1,23 @@
+2015-09-22T23:17:20.598428000 0.661644s notice: Recursively removing directory /Users/apple/Desktop/tweetdoc/rethinktwitter/rethinkdb_data/tmp
+2015-09-22T23:17:20.666040000 0.729261s notice: Initializing directory /Users/apple/Desktop/tweetdoc/rethinktwitter/rethinkdb_data
+2015-09-22T23:17:20.666156000 0.729372s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/apple/Desktop/tweetdoc/rethinktwitter/rethinkdb_data' did not already exist or is empty.)
+2015-09-22T23:17:20.666208000 0.729424s notice: Running rethinkdb 2.1.1 (CLANG 6.1.0 (clang-602.0.53))...
+2015-09-22T23:17:20.772010000 0.835227s notice: Running on Darwin 14.1.0 x86_64
+2015-09-22T23:17:20.772074000 0.835289s notice: Loading data from directory /Users/apple/Desktop/tweetdoc/rethinktwitter/rethinkdb_data
+2015-09-22T23:17:22.475382000 2.538645s info: Automatically using cache size of 100 MB
+2015-09-22T23:17:22.475396000 2.538659s warn: Cache size is very low and may impact performance.
+2015-09-22T23:17:22.476083000 2.539346s notice: Listening for intracluster connections on port 29015
+2015-09-22T23:17:22.477885000 2.541148s notice: Listening for client driver connections on port 28015
+2015-09-22T23:17:22.478095000 2.541358s notice: Listening for administrative HTTP connections on port 8080
+2015-09-22T23:17:22.478097000 2.541359s notice: Listening on addresses: 127.0.0.1, ::1
+2015-09-22T23:17:22.478101000 2.541364s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-09-22T23:17:22.478105000 2.541368s notice: Server ready, "Anmols_MacBook_Pro_local_hbd" 807718b8-b997-4cce-80a5-1f0b7594132e
+2015-09-22T23:17:24.787583000 4.850893s notice: A newer version of the RethinkDB server is available: 2.1.4. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2015-09-22T23:32:17.790581000 897.874248s info: Table fd349eea-881f-421a-a6d2-6935ac8a71e4: Added replica on this server.
+2015-09-22T23:32:19.587971000 899.671681s info: Table fd349eea-881f-421a-a6d2-6935ac8a71e4: Starting a new Raft election for term 1.
+2015-09-22T23:32:19.894363000 899.978072s info: Table fd349eea-881f-421a-a6d2-6935ac8a71e4: This server is Raft leader for term 1. Latest log index is 0.
+2015-09-22T23:37:04.300211000 1184.390376s notice: Server got SIGINT from pid 2656, uid 501; shutting down...
+2015-09-22T23:37:04.300349000 1184.390512s notice: Shutting down client connections...
+2015-09-22T23:37:04.300522000 1184.390685s notice: All client connections closed.
+2015-09-22T23:37:04.300530000 1184.390693s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-09-22T23:37:04.304919000 1184.395083s notice: Storage engine shut down.
